@@ -1,0 +1,32 @@
+.atriby {
+  display: flex;
+  width: 100%;
+  max-height: 570px; }
+  .atriby .atriby_block {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; }
+    .atriby .atriby_block .atriby_block_in {
+      list-style: none;
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 40px 0;
+      align-items: center;
+      justify-content: center; }
+      .atriby .atriby_block .atriby_block_in .atriby_block_in_item {
+        padding: 10px 0px;
+        width: 350px;
+        display: flex;
+        align-items: center; }
+        .atriby .atriby_block .atriby_block_in .atriby_block_in_item .atriby_img {
+          display: flex;
+          padding: 0 20px; }
+          .atriby .atriby_block .atriby_block_in .atriby_block_in_item .atriby_img .fa {
+            color: #f31f79; }
+        .atriby .atriby_block .atriby_block_in .atriby_block_in_item .atriby_text {
+          display: flex;
+          flex-direction: column;
+          width: 70%; }
+
+/*# sourceMappingURL=atriby.css.map */

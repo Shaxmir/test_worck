@@ -1,0 +1,82 @@
+.otz{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    position: relative;
+    .otz_in{
+        display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+        .otz_in_text{
+            display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+            .otz_in_text_title{
+                padding: 10px 0;
+    font-size: 36px;
+            }
+            .otz_in_text_title_two{
+                padding: 10px 0;
+            }
+        }
+        .otz_in_comments{
+            display: flex;
+            width: 100%;
+            padding: 30px 0;
+            align-items: center;
+    justify-content: center;
+            .otz_in_comments_list{
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                .otz_in_comments_item{
+                    display: flex;
+                    flex-direction: column;
+                    width: 30%;
+                    .otz_in_comments_item_text{
+                        padding: 15px 0;
+                    }
+                    .otz_in_comments_item_autor{
+                        display: flex;
+                        padding: 15px 15px 0;
+                        justify-content: space-between;
+                        .otz_in_comments_item_autor_avatar{
+                            width: 75px;
+                             height: 75px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                            }
+                        }
+                        .otz_in_comments_item_autor_info{
+                            .otz_in_comments_item_autor_info_name{
+
+                            }
+                            .otz_in_comments_item_autor_info_dop{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.otz_next{
+    display: flex;
+    background: linear-gradient(90deg, #fd712c 0%, #f42375 100%);
+    padding: 30px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 50%;
+    .fa{
+color: #fff;
+    }
+}
