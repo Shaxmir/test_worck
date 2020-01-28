@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    width: 100%;
+    background: #222222;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    .foot{
+        display: flex;
+        flex-direction: column;
+        .foot_icons{
+            list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+            .foot_icons_item{
+                color: #fff;
+                 cursor: pointer;
+                 &:hover {
+                     color: #f31f79;
+                 }
+                .fa{
+
+                }
+            }
+            
+        }
+        .foot_copy{
+                padding: 15px 0;
+                color: #fff;
+            }
+    }
+}

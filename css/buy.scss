@@ -1,0 +1,115 @@
+.buy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .buy_block{
+        display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+        .buy_block_text{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+            .buy_block_title{
+                padding: 10px 0;
+                font-size: 36px;
+            }
+            .buy_block_title_two{
+                padding: 10px 0;
+            }
+        }
+        .buy_block_pack{
+            display: flex;
+    padding: 30px 0;
+            .buy_block_pack_list{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                list-style: none;
+                .buy_block_pack_item{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 20px 0;
+                    &:hover {
+                        .buy_block_pack_item_btn{
+                            transition: .5s;
+                            background: linear-gradient(90deg, rgba(253,113,44,1) 0%, rgba(244,35,117,1) 100%);
+                        }
+                        .buy_block_pack_item_price{
+                            width: 100%;
+                            background: linear-gradient(90deg, rgba(253,113,44,1) 0%, rgba(244,35,117,1) 100%);
+                            text-align: center;
+                            height: 100px;
+                            position: relative;
+                            color: #fff;
+                            &::before{
+                                content: "";
+                                width: 0;
+                                height: 0;
+                                border-bottom: 85px solid #fff;
+                                border-right: 150px solid transparent;
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                            }
+                            &::after{
+                                content: "";
+                                width: 0;
+                                height: 0;
+                                border-bottom: 85px solid #fff;
+                                border-left: 150px solid transparent;
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                            }
+                        }
+                    }
+                    .buy_block_pack_item_name{
+                        padding: 10px 0;
+                        font-size: 20px;
+                    }
+                    .buy_block_pack_item_price{
+                        padding: 10px 0;
+                        font-size: 46px;
+                        height: 100px;
+                        @include desktop{
+                            font-size: 28px;
+                        }
+                    }
+                    .buy_block_pack_item_text{
+                        display: flex;
+                        padding: 50px 0;
+                    
+                        .buy_block_pack_item_text_list{
+                            display: flex;
+                            flex-direction: column;
+                            list-style: none;
+                            align-items: center;
+                            .buy_block_pack_item_text_item{
+                                padding: 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .buy_block_pack_item_info{
+                padding: 10px 0;
+            }
+            .buy_block_pack_item_btn{
+                padding: 25px 50px;
+                border: none;
+                border-radius: 50px;
+                background: transparent;
+                color: #000;
+                font-weight: bold;
+                cursor: pointer;
+                @include desktop{
+                    padding: 20px 40px;
+                                }
+            
+            }
+        }
+    }
+}   
